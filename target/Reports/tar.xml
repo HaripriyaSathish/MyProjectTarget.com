@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.53936">
+    <testcase classname="To Validate the SignUp functionality in Webapplication" name="To validate the signup functionality" time="18.53936">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.SignupMap.to_validate_the_values_create_account(SignupMap.java:54)&#13;&#10;&#9;at ✽.To validate the values create account(file:src/test/resources/Features/SignUpFunctionality.feature:43)&#13;&#10;">
+            <![CDATA[When To Launch the Application..............................................passed
+And To click the signin icon present in homepage............................passed
+And To click Create Account link............................................passed
+And To pass the values in first name field..................................passed
+And To pass the values in last name field...................................passed
+Then To validate the values create account..................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.SignupMap.to_validate_the_values_create_account(SignupMap.java:54)
+	at ✽.To validate the values create account(file:src/test/resources/Features/SignUpFunctionality.feature:43)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
